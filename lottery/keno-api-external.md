@@ -1279,6 +1279,7 @@
   | -- | ---- | ----------- | -- |
   | account | 玩家帳號 | string | |
   | creditLimit | 最高額度 | string | |
+  | currentCredit | 剩餘信用額度 | string ||
   | uuquid | 交易序號 | string | 用於追蹤查詢紀錄 |
 
   ### 錯誤碼
