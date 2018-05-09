@@ -427,6 +427,7 @@
 | historyList \ multiple | 倍數 | string | |
 | historyList \ betAmount | 下注總額 | string | 位數格式:(19,4) ex:1000.0001 |
 | historyList \ winBonus | 中獎金額 | string | 位數格式:(19,4) ex:1000.0001 |
+| historyList \ refundFee | 退水 | string | 位數格式:(19,4) ex:1000.0001 |
 | historyList \ ip | 下注IP | string | |
 | historyList \ betStatus | 注單狀態 | string | [注單狀態](#注單狀態) |
 | historyList \ currency | 貨幣 | string | |
