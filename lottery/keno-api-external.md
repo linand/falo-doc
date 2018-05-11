@@ -46,7 +46,6 @@
 | account | 帳號 | string | Y | 長度最短4，最長20 |
 | nickname | 玩家暱稱 | string | Y | 長度最短4，最長20 |
 | currency | 貨幣 | string | N | [玩家貨幣類型](#支援貨幣)，不指定以代理商為準 |
-| maxbetlimit | 單次最大下注額 | string | Y |
 | limitwin | 限贏 | string | Y | 0表示無限制 |
 | limitlose | 限輸 | string | Y | 0表示無限制 |
 | memberType | 帳務類型 | string | N | 1:現金制、2:信用制 沒輸入預設是2:信用制|
@@ -54,7 +53,7 @@
 | key | 公鑰 | string | Y | 各代理商公鑰(註冊代理商產生) |
 | hash | 驗證參數 | string | Y | md5 |
 
-   #### **` hash = md5(account+nickname+maxbetlimit+limitwin+limitlose+privateKey)`**
+   #### **` hash = md5(account+nickname+limitwin+limitlose+privateKey)`**
 
    ### 輸出參數
 | 參數名稱 | 參數說明 | 參數型態 | 說明 |
